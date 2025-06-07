@@ -9,12 +9,12 @@
       "date": "17/05/2025"
     },
     {
-      "id": "5cce",
-      "title": "Salario",
-      "price": 12000,
-      "category": "Salario",
+      "title": "Pagamento das férias",
+      "price": 21000,
+      "category": "Finanças",
       "transactionType": "deposit",
-      "date": "17/05/2025"
+      "date": "07/06/2025",
+      "id": "5cce"
     },
     {
       "id": "fbea",
@@ -33,12 +33,12 @@
       "date": "17/05/2025"
     },
     {
-      "id": "8bca",
-      "title": "Café",
-      "price": 90,
-      "category": "Alimentacao",
+      "title": "Café em barras de ouro",
+      "price": 908,
+      "category": "Alimentação",
       "transactionType": "withdraw",
-      "date": "31/05/2025"
+      "date": "07/06/2025",
+      "id": "8bca"
     },
     {
       "id": "5b39",

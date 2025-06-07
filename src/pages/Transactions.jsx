@@ -5,10 +5,13 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header/Header";
+import { useTransactionContext } from "../contexts/TransactionContext";
 
 function TransactionsPage() {
   const [allTransactions, setAllTransactions] = useState([]);
   const [open, setOpen] = useState(false);
+
+  const transactionsContext = useTransactionContext();
 
   const navigate = useNavigate();
 
@@ -16,7 +19,6 @@ function TransactionsPage() {
     navigate("/transactions/" + id);
   }
 
-  console.log(allTransactions);
   async function fetchTransactions() {
     const transactions = await axios.get("http://localhost:3000/transactions");
 
