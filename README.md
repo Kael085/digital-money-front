@@ -1,12 +1,21 @@
-# React + Vite
+# Digital Money Front
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+O **Digital Money Front** é um projeto de front-end que simula uma interface de **aplicativo ou site de gerenciamento de dinheiro digital**.  
+O objetivo é demonstrar habilidades em **HTML, CSS e JavaScript**, focando em **UI moderna, interatividade e organização de componentes**.
 
-Currently, two official plugins are available:
+Funcionalidades principais:
+- Visualização de saldo e transações (simulado)
+- Interface interativa e responsiva
+- Botões e cards para navegação entre funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias usadas
+- **HTML** – estrutura da interface
+- **CSS** – estilização, cores, tipografia e responsividade
+- **JavaScript** – interatividade e lógica de interface
+- **Deploy** – hospedagem no Vercel
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como usar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Kael085/digital-money-front.git
